@@ -1,0 +1,23 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+}
+
+h1{
+    font-family: 'Nova Square', sans-serif;
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+header{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7) 0% 100%), url(../img/freedom-relaxation-travel-outdoor-enjoying-nature.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.btn-info{
+    --bs-btn-hover-bg: #285c65;
+    --bs-btn-hover-border-color: #285c65;
+}

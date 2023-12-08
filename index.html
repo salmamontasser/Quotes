@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/motivation-typography-crumble-font.jpg" type="image/x-icon">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="css/main.css">
+    <title>Quotes</title>
+</head>
+
+<body>
+    <header>
+        <div class="container p-5 d-flex justify-content-center align-items-center">
+            <div class="box-info text-white text-center">
+                <h1 class=" text-center py-5">Quote of the Day</h1>
+                <p class="fw-400 text-center">Press the button below to recieve a random quote!</p>
+                <div class="text-center py-5">
+                    <button  onclick="getQuote();" class=" btn btn-info text-center text-white px-5">Add Quote</button>
+                </div>
+                <p id="quote"></p>
+                <p id="quoteauthor"></p>
+            </div>
+
+        </div>
+    </header>
+    <script src="main.js"></script>
+</body>
+
+</html>
